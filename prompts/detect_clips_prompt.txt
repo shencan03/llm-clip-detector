@@ -4,8 +4,10 @@ Below is a transcript of a podcast. Identify up to 2 viral clip-worthy segments 
 - A punchline or key takeaway
 
 Return each as:
-{
-  "start_time": [seconds],
-  "end_time": [seconds],
-  "title": "[summary]"
-}
+[
+  {
+    "start_time": [seconds],
+    "end_time": [seconds],
+    "title": "[summary]"
+  }
+]
