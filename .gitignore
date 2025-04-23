@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+.env
+models/*
+data/clips/*
+data/transcripts/*
+data/chunks/*

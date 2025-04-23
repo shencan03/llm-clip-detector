@@ -1,0 +1,11 @@
+Below is a transcript of a podcast. Identify up to 2 viral clip-worthy segments that contain:
+- A strong hook (question or bold claim)
+- Development (reasoning or narrative)
+- A punchline or key takeaway
+
+Return each as:
+{
+  "start_time": [seconds],
+  "end_time": [seconds],
+  "title": "[summary]"
+}
