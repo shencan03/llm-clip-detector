@@ -1,13 +1,21 @@
-Below is a transcript of a podcast. Identify up to 2 viral clip-worthy segments that contain:
-- A strong hook (question or bold claim)
-- Development (reasoning or narrative)
-- A punchline or key takeaway
+Below is a transcript of a podcast. Identify up to 2 clip-worthy segments that would perform well on TikTok, YouTube Shorts, or Instagram Reels. Each clip should include:
 
-Return each as:
+- A strong **hook** (a question, surprising fact, or bold claim)
+- A coherent **development** (logical reasoning or storytelling)
+- A punchline, insight, or emotional **payoff**
+
+Focus on segments that are engaging, educational, or thought-provoking.
+
+Return a list in this exact JSON format:
 [
   {
     "start_time": [seconds],
     "end_time": [seconds],
-    "title": "[summary]"
+    "title": "[summarize the clip in 8 words or less]"
   }
 ]
+
+Transcript:
+"""
+{{transcript_chunk}}
+"""

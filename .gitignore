@@ -8,3 +8,4 @@ data/transcripts/*
 data/chunks/*
 data/raw/
 data/chunks/
+.env

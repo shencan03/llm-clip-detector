@@ -1,4 +1,24 @@
-whisper
-ffmpeg-python
-pyyaml
-tqdm
+# Core transcription/model libraries
+git+https://github.com/m-bain/whisperx.git
+torch==2.1.2+cu118
+torchaudio==2.1.2+cu118
+--find-links https://download.pytorch.org/whl/cu118
+
+# Tokenizer for chunking
+tiktoken==0.9.0
+
+# Sentence tokenizer
+nltk==3.9.1
+
+# Audio/video handling (if needed)
+ffmpeg-python==0.2.0
+
+# Whisper (if fallback needed)
+openai-whisper
+
+# Optional: Diarization auth helpers (if environment allows)
+requests>=2.26.0
+
+python-dotenv
+
+.env
