@@ -6,3 +6,5 @@ models/*
 data/clips/*
 data/transcripts/*
 data/chunks/*
+data/raw/
+data/chunks/
