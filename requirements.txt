@@ -1,8 +1,6 @@
 # Core transcription/model libraries
-git+https://github.com/m-bain/whisperx.git
-torch==2.1.2+cu118
-torchaudio==2.1.2+cu118
---find-links https://download.pytorch.org/whl/cu118
+# whisperx is packaged manually via whisperx-x.x.x.tar.gz
+# torch and torchaudio downloaded separately with pip download
 
 # Tokenizer for chunking
 tiktoken==0.9.0
@@ -20,5 +18,3 @@ openai-whisper
 requests>=2.26.0
 
 python-dotenv
-
-.env
