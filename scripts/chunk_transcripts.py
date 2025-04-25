@@ -1,31 +1,43 @@
+import json
 import os
-from nltk.tokenize import sent_tokenize
-import tiktoken
 
-def chunk_transcript(file_path="data/transcripts/dopamine_detox.txt", out_dir="data/chunks", max_tokens=4500):
-    os.makedirs(out_dir, exist_ok=True)
-    enc = tiktoken.get_encoding("cl100k_base")
+INPUT_PATH = "data/transcripts/dopamine_detox.json"
+OUTPUT_DIR = "data/chunks"
+MAX_TOKENS = 700  # adjust depending on prompt size + model limit
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        text = f.read()
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    sentences = sent_tokenize(text)
-    chunks, current = [], ""
+def estimate_tokens(text):
+    # 1 token ≈ 4 characters in English
+    return len(text) // 4
 
-    for sentence in sentences:
-        if len(enc.encode(current + sentence)) <= max_tokens:
-            current += sentence + " "
+def chunk_transcript():
+    with open(INPUT_PATH, "r", encoding="utf-8") as f:
+        segments = json.load(f)
+
+    chunks = []
+    current_chunk = []
+    current_text = ""
+
+    for seg in segments:
+        new_text = seg["text"].strip()
+        if estimate_tokens(current_text + new_text) < MAX_TOKENS:
+            current_chunk.append(seg)
+            current_text += " " + new_text
         else:
-            chunks.append(current.strip())
-            current = sentence + " "
-    if current:
-        chunks.append(current.strip())
+            chunks.append(current_chunk)
+            current_chunk = [seg]
+            current_text = new_text
 
+    if current_chunk:
+        chunks.append(current_chunk)
+
+    # Save chunks to individual files
     for i, chunk in enumerate(chunks):
-        with open(f"{out_dir}/chunk_{i+1}.txt", "w", encoding="utf-8") as f:
-            f.write(chunk)
+        with open(f"{OUTPUT_DIR}/chunk_{i+1:03}.json", "w", encoding="utf-8") as f:
+            json.dump(chunk, f, indent=2)
 
-    print(f"✅ Created {len(chunks)} chunks in {out_dir}/")
+    print(f"✅ Created {len(chunks)} chunks in /data/chunks")
 
 if __name__ == "__main__":
     chunk_transcript()

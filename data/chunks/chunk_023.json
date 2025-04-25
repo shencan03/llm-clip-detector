@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1298,
+    "seek": 405670,
+    "start": 4062.22,
+    "end": 4066.48,
+    "text": " If there's anything you're missing, if there's anything you're feeling a way that you're hurting, this is the point.",
+    "tokens": [
+      50641,
+      759,
+      456,
+      311,
+      1340,
+      291,
+      434,
+      5361,
+      11,
+      498,
+      456,
+      311,
+      1340,
+      291,
+      434,
+      2633,
+      257,
+      636,
+      300,
+      291,
+      434,
+      17744,
+      11,
+      341,
+      307,
+      264,
+      935,
+      13,
+      50854
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1299,
+    "seek": 405670,
+    "start": 4066.58,
+    "end": 4067.66,
+    "text": " You have to learn somehow.",
+    "tokens": [
+      50859,
+      509,
+      362,
+      281,
+      1466,
+      6063,
+      13,
+      50913
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1300,
+    "seek": 405670,
+    "start": 4067.8399999999997,
+    "end": 4068.04,
+    "text": " Yeah.",
+    "tokens": [
+      50922,
+      865,
+      13,
+      50932
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1301,
+    "seek": 405670,
+    "start": 4068.8399999999997,
+    "end": 4069.2,
+    "text": " You know?",
+    "tokens": [
+      50972,
+      509,
+      458,
+      30,
+      50990
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1302,
+    "seek": 405670,
+    "start": 4069.46,
+    "end": 4070.04,
+    "text": " It's beautiful.",
+    "tokens": [
+      51003,
+      467,
+      311,
+      2238,
+      13,
+      51032
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1303,
+    "seek": 405670,
+    "start": 4070.2799999999997,
+    "end": 4070.4399999999996,
+    "text": " Yeah.",
+    "tokens": [
+      51044,
+      865,
+      13,
+      51052
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1304,
+    "seek": 405670,
+    "start": 4071.08,
+    "end": 4074.2999999999997,
+    "text": " Penn, thank you so much for coming on Call Our Daddy.",
+    "tokens": [
+      51084,
+      12667,
+      11,
+      1309,
+      291,
+      370,
+      709,
+      337,
+      1348,
+      322,
+      7807,
+      2621,
+      15323,
+      13,
+      51245
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1305,
+    "seek": 405670,
+    "start": 4074.4199999999996,
+    "end": 4075.3999999999996,
+    "text": " That was truly a pleasure.",
+    "tokens": [
+      51251,
+      663,
+      390,
+      4908,
+      257,
+      6834,
+      13,
+      51300
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1306,
+    "seek": 405670,
+    "start": 4076.0,
+    "end": 4076.64,
+    "text": " I appreciate it.",
+    "tokens": [
+      51330,
+      286,
+      4449,
+      309,
+      13,
+      51362
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1307,
+    "seek": 405670,
+    "start": 4076.72,
+    "end": 4078.4199999999996,
+    "text": " It's really nice podcasting with podcasters.",
+    "tokens": [
+      51366,
+      467,
+      311,
+      534,
+      1481,
+      7367,
+      278,
+      365,
+      2497,
+      16369,
+      1559,
+      13,
+      51451
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1308,
+    "seek": 405670,
+    "start": 4078.52,
+    "end": 4079.2,
+    "text": " Yeah, right?",
+    "tokens": [
+      51456,
+      865,
+      11,
+      558,
+      30,
+      51490
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1309,
+    "seek": 405670,
+    "start": 4080.2799999999997,
+    "end": 4081.3799999999997,
+    "text": " So much easier.",
+    "tokens": [
+      51544,
+      407,
+      709,
+      3571,
+      13,
+      51599
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1310,
+    "seek": 405670,
+    "start": 4081.98,
+    "end": 4082.56,
+    "text": " 10 out of 10.",
+    "tokens": [
+      51629,
+      1266,
+      484,
+      295,
+      1266,
+      13,
+      51658
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1311,
+    "seek": 405670,
+    "start": 4082.64,
+    "end": 4082.96,
+    "text": " Thank you.",
+    "tokens": [
+      51662,
+      1044,
+      291,
+      13,
+      51678
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1312,
+    "seek": 405670,
+    "start": 4083.04,
+    "end": 4083.3599999999997,
+    "text": " Thank you.",
+    "tokens": [
+      51682,
+      1044,
+      291,
+      13,
+      51698
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1313,
+    "seek": 405670,
+    "start": 4083.3999999999996,
+    "end": 4084.0,
+    "text": " Thank you so much.",
+    "tokens": [
+      51700,
+      1044,
+      291,
+      370,
+      709,
+      13,
+      51730
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22670474742193641,
+    "compression_ratio": 1.8052434456928839,
+    "no_speech_prob": 8.220106974476948e-05
+  },
+  {
+    "id": 1314,
+    "seek": 408670,
+    "start": 4086.7,
+    "end": 4094.3599999999997,
+    "text": " Thank you.",
+    "tokens": [
+      50365,
+      1044,
+      291,
+      13,
+      50748
+    ],
+    "temperature": 1.0,
+    "avg_logprob": -1.639048316261985,
+    "compression_ratio": 1.0,
+    "no_speech_prob": 0.14782775938510895
+  },
+  {
+    "id": 1315,
+    "seek": 408670,
+    "start": 4094.3799999999997,
+    "end": 4094.3999999999996,
+    "text": " Thank you.",
+    "tokens": [
+      50749,
+      1044,
+      291,
+      13,
+      50750
+    ],
+    "temperature": 1.0,
+    "avg_logprob": -1.639048316261985,
+    "compression_ratio": 1.0,
+    "no_speech_prob": 0.14782775938510895
+  }
+]

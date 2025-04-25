@@ -1,7 +1,3 @@
-# Core transcription/model libraries
-# whisperx is packaged manually via whisperx-x.x.x.tar.gz
-# torch and torchaudio downloaded separately with pip download
-
 # Tokenizer for chunking
 tiktoken==0.9.0
 

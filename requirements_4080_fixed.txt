@@ -1,0 +1,11 @@
+# Core transcription/model libraries
+tiktoken==0.9.0
+nltk==3.9.1
+ffmpeg-python==0.2.0
+openai-whisper
+requests>=2.26.0
+python-dotenv
+numpy==1.26.4  # Ensures compatibility with torch and whisper
+
+# torch and torchaudio must be installed manually using:
+# pip install --upgrade --force-reinstall torch==2.2.2+cu118 --index-url https://download.pytorch.org/whl/cu118
